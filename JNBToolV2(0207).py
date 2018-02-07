@@ -1414,7 +1414,7 @@ class CheckDevice(QWidget):
 		self.arg = arg
 		
 def checkingDevice():
-	res = requests.get("http://textuploader.com/dh47h/raw")
+	res = requests.get("https://raw.githubusercontent.com/namtrung205/JNB-tools/master/theSupportList")
 	theList = res.text.split(",")
 	print(theList)
 	regFile = open('C:/HDFormReg.dat', 'r')
